@@ -9,6 +9,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 export class TodoViewModuleComponent implements OnInit {
 
   todoForm: FormGroup;
+  searchVal: any;
   submitted = false;
   txtAreaHide = false;
   addBtnHide = true;
@@ -34,6 +35,7 @@ export class TodoViewModuleComponent implements OnInit {
       this.txtAreaHide = false;
       this.addBtnHide = true;
       this.saveBtnHide = false;
+      this.todoForm.reset();
     }
   }
 

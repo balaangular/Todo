@@ -7,11 +7,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TodoViewModuleComponent } from './todo-view-module/todo-view-module.component';
+import { SearchBoxPipe } from './search-box.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TodoViewModuleComponent
+    TodoViewModuleComponent,
+    SearchBoxPipe
   ],
   imports: [
     BrowserModule,
