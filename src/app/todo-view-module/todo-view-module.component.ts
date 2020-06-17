@@ -8,6 +8,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 })
 export class TodoViewModuleComponent implements OnInit {
 
+  // Added Bootstrap, Font-awesome & Jquery for design
   todoForm: FormGroup;
   searchVal: any;
   submitted = false;
